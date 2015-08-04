@@ -1,0 +1,1 @@
+document.addEventListener('onload', console.log('page loaded'));
