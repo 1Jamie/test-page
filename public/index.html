@@ -9,13 +9,20 @@
     <link rel="stylesheet" href="css/app.css">
 
     <script type="text/javascript" src="js/app.js" defer></script>
+    <title>Daily Bulletin</title>
 
     <link rel="prefetch" type="application/l10n" href="data/locales.ini" />
     <script type="text/javascript" src="js/libs/l10n.js" defer></script>
 </head>
 <body>
-<h1 style="color: blue;"> This is just my test page</h1>
-<p1>this is just as random as the top header</p1>
+<h1 style="color: blue; size: 20px;"><u>Firefox OS QA builtin board.</u></h1>
+<p1>These are the current standings of today for Firefox OS QA</p1>
+<br>
+<br>
+<h1 style="size: 13px;"><u>Smoke Test Blockers</u></h1>
+<p1> these are the current bugs that are blocking the current buid due to they did not pass main functionality tests. These are the major known bugs that will be worked out rapidly</p1>
+<iframe style="align: left; height: 150px; width: 550px;" src="https://bugzilla.mozilla.org/buglist.cgi?keywords=smoketest&keywords_type=allwords&f1=cf_status_b2g_master&o1=equals&resolution=---&query_format=advanced&v1=affected&list_id=12448410"></iframe>
+<p1></p1> 
 <p2> this can easily be changed with a commit and usually about 10-15 seconds later the page is updated</p2>
     <br>
     <hr>
